@@ -138,13 +138,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="input.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="print_list.cpp" />
+    <ClCompile Include="Sorting.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="input.h" />
-    <ClInclude Include="printing_list.h" />
-    <ClInclude Include="Sorting.h" />
-    <ClInclude Include="structure.h" />
+    <ClInclude Include="header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

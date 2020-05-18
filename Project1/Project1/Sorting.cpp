@@ -1,18 +1,15 @@
-#include "structure.h"
-
-#ifndef _SORTING_H_
-#define _SORTING_H_
+#include "header.h"
 
 int id_cmp1(const void* a, const void* b)
 {
-	const Student* one = (const Student*)a;
-	const Student* two = (const Student*)b;
+const Student* one = (const Student*)a;
+const Student* two = (const Student*)b;
 
-	if (one->id < two->id)
-		return -1;
-	if (one->id > two->id)
-		return 1;
-	return 0;
+if (one->id < two->id)
+	return -1;
+if (one->id > two->id)
+return 1;
+return 0;
 }
 
 int id_cmp2(const void* a, const void* b)
@@ -112,5 +109,3 @@ void Sorting(Student* list)
 		break;
 	}
 }
-
-#endif

@@ -1,9 +1,4 @@
-#include "structure.h"
-
-#ifndef _PRINTING_LIST_H_
-#define _PRINTING_LIST_H_
-
-
+#include "header.h"
 
 void print_list(struct student* lp)
 {
@@ -17,5 +12,3 @@ void print_list(struct student* lp)
 			(lp + i)->id, (lp + i)->teamname, (lp + i)->company);
 	}
 }
-
-#endif

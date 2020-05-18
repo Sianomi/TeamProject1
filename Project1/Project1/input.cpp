@@ -1,7 +1,4 @@
-#include "structure.h"
-
-#ifndef _INPUT_H_
-#define _INPUT_H_
+#include "header.h"
 
 void input(Student* list)
 {
@@ -23,5 +20,3 @@ void input(Student* list)
 
 	}
 }
-
-#endif
