@@ -8,6 +8,7 @@ int main()
 	print_list(list);
 	Sorting(list);
 	print_list(list);
+	File_Write(list);
 
 	return 0;
 }

@@ -24,4 +24,6 @@ int teamname_cmp2(const void* a, const void* b);
 int company_cmp1(const void* a, const void* b);
 int company_cmp2(const void* a, const void* b);
 
+void File_Write(Student* list);
+
 #endif
