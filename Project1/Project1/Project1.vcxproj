@@ -138,14 +138,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="file.cpp" />
-    <ClCompile Include="input.cpp" />
+    <ClCompile Include="이태민_file.cpp" />
+    <ClCompile Include="장진_input.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="print_list.cpp" />
-    <ClCompile Include="Sorting.cpp" />
+    <ClCompile Include="김현중_print_list.cpp" />
+    <ClCompile Include="김상현_Sorting.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="header.h" />
+    <ClInclude Include="Megaton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

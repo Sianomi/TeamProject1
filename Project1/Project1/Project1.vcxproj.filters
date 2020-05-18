@@ -18,21 +18,21 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="input.cpp">
+    <ClCompile Include="김상현_Sorting.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="print_list.cpp">
+    <ClCompile Include="김현중_print_list.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Sorting.cpp">
+    <ClCompile Include="장진_input.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="file.cpp">
+    <ClCompile Include="이태민_file.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="header.h">
+    <ClInclude Include="Megaton.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

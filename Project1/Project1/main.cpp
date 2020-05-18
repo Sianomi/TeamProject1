@@ -1,4 +1,4 @@
-#include "header.h"
+#include "Megaton.h"
 
 int main()
 {
