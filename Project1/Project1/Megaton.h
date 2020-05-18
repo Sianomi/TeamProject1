@@ -2,9 +2,12 @@
 #define _HEADER_H_
 
 #define _CRT_SECURE_NO_WARNINGS
+#define MAX_PATH 260
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <windows.h>
 
 typedef struct student {
 	char teamname[20];
