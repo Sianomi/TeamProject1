@@ -18,5 +18,6 @@ void input(Student* list)
 		printf("%회사 이름 : ");
 		scanf("%s", &list[i].company);
 
+		printf("\n");
 	}
 }
