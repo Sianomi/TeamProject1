@@ -5,7 +5,7 @@ void File_Write(Student* list)
 	FILE* fp;
 
 	char master_path[MAX_PATH]{ 0, }, path[MAX_PATH]{"C:\\Users\\"};
-	char* pointer;
+	char* pointer{ NULL };
 
 	if (GetCurrentDirectoryA(MAX_PATH, master_path) == 0)
 	{
@@ -14,11 +14,16 @@ void File_Write(Student* list)
 	}
 
 	pointer = strstr(master_path, "Users");
-	pointer = strtok(pointer, "\\");
-	pointer = strtok(NULL, "\\");
+	if (pointer != NULL)
+	{
+		pointer = strtok(pointer, "\\");
+		pointer = strtok(NULL, "\\");
 
-	strcat(path, pointer);
-	strcat(path, "\\Documents\\Megaton.txt");
+		strcat(path, pointer);
+		strcat(path, "\\Documents\\Megaton.txt");
+	}
+	else
+		strcpy(path, "C:\\Megaton.txt");
 
 	fp = fopen(path, "w");
 	if (fp == NULL)
@@ -27,7 +32,6 @@ void File_Write(Student* list)
 		exit(-1);
 	}
 	
-
 	for (int i = 0; i < 6; i++)
 	{
 		fprintf(fp, "%5d\t %10s %15s\n",
@@ -35,5 +39,4 @@ void File_Write(Student* list)
 	}
 	
 	fclose(fp);
-	
 }
